@@ -2,7 +2,7 @@ import express from "express";
 import * as invoiceControllers from "../controllers/InvoiceController";
 import adminAuthorised from "../middlewares/AdminAuthorised";
 import authorised from "../middlewares/Authorised";
-import validateInvoiceData from "middlewares/ValidateInvoiceData";
+import validateInvoiceData from "../middlewares/ValidateInvoiceData";
 
 const router = express.Router();
 
