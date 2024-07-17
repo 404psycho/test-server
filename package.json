@@ -7,7 +7,8 @@
     "nodemon": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "ts-node ./src/index.ts"
+    "start": "ts-node ./src/index.ts",
+    "vercel-build": "echo hello"
   },
   "author": "",
   "license": "ISC",
