@@ -5,10 +5,10 @@ import cors from "cors";
 import env from "dotenv";
 import express, { Request, Response } from "express";
 import { createServer } from "http";
-import connectToMongo from "./connectToMongo";
-import authRoutes from "./routes/AuthRoutes";
-import userRoutes from "./routes/UserRoutes";
-import invoiceRoutes from "./routes/InvoiceRoutes";
+import connectToMongo from "./src/connectToMongo";
+import authRoutes from "./src/routes/AuthRoutes";
+import userRoutes from "./src/routes/UserRoutes";
+import invoiceRoutes from "./src/routes/InvoiceRoutes";
 
 // Loading environment variables from .env file
 env.config();
